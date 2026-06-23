@@ -125,9 +125,9 @@ const TECH_LOGOS = baseTechStack.map((tech) => {
         <div 
           className="flex items-center gap-3 bg-[#0a0a0a] px-6 py-3 rounded-full cursor-pointer transition-all duration-300 hover:scale-105 group"
           style={{
-            border: `1px solid ${tech.color}50`,
-            boxShadow: `0 0 12px ${tech.color}30`,
-          }}
+  border: '1px solid ' + tech.color + '50',
+  boxShadow: '0 0 12px ' + tech.color + '30',
+}}
           onMouseEnter={(e) => {
             e.currentTarget.style.boxShadow = `0 0 25px ${tech.color}80`;
             e.currentTarget.style.borderColor = tech.color;
